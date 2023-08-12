@@ -27,87 +27,6 @@ body {
   display: flex;
   margin-left: 17%;
 }
-nav {
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 8px;
-  position: sticky;
-  top: 0%;
-  background-color: rgba(255, 255, 255, 0.411);
-  z-index: 100;
-}
-
-#search-logo a img {
-  height: 20px;
-  width: 20px;
-   filter: invert(100%);
-}
-
-#cart-logo a img {
-  height: 20px;
-  width: 20px;
-   filter: invert(100%);
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
-
-nav ul li {
-  margin: 20px 15px 5px 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-}
-
-#logo a img {
-  height: 20px;
-  width: 18px;
-}
-
-#search-logo a img {
-  height: 20px;
-  width: 20px;
-}
-
-#cart-logo a img {
-  height: 20px;
-  width: 20px;
-}
-
-
-.cross {
-  font-weight: bold;
-  font-size: 2rem;
-  margin: 1.5% 0 1% 90%;
-  cursor: pointer;
-}
-
-.items {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 75vh;
-  background-color: white;
-  z-index: 9999;
-  overflow-y: auto;
-}
-
-.item {
-  padding: 8px 25px;
-  font-size: 1.5rem;
-}
-
-
-
 
 #page > .nav {
   display: flex;
@@ -117,7 +36,6 @@ nav ul li a {
   position: absolute;
   height: 7vh;
   width: 50vw;
-  margin-top: 44px;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -763,9 +681,8 @@ nav ul li a {
 }
 
 .last p {
-  padding: 5px;
+  padding: 3px;
 }
-
 
 /* Mobile devices (up to 768px) */
 @media screen and (max-width: 1280px) {
@@ -781,31 +698,29 @@ nav ul li a {
     justify-content: space-between;
     margin-left: 55%;
   }
-  .menu #logo-img{
+  .menu #logo-img {
     margin-left: -470px;
   }
-
 }
 @media screen and (max-width: 768px) {
-  nav{
-    margin:0 0;
+  nav {
+    margin: 0 0;
     width: 100%;
     padding-left: 0;
     padding-bottom: 5px;
     background-color: rgba(255, 255, 255, 0.9);
     overflow: hidden;
   }
- 
+
   #bar {
     display: block;
     margin-right: 100px;
   }
 
-
   .menu-items {
     display: none;
   }
-  .menu #logo-img{
+  .menu #logo-img {
     margin-left: -165px;
   }
   .menu {
@@ -881,7 +796,7 @@ nav ul li a {
     font-size: 2.3vw;
   }
 
-  #page6>h3{
+  #page6 > h3 {
     font-size: 6vw;
   }
 
@@ -902,8 +817,8 @@ nav ul li a {
   }
   #page16 > img {
     margin-top: 230px;
-   height: 27vh;
-   width: 70%;
+    height: 27vh;
+    width: 70%;
   }
   #page16 > button {
     font-size: 3vw;

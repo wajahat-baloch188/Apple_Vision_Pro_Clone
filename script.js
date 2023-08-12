@@ -1,30 +1,3 @@
-let bar = document.querySelector(".side-bar");
-let menuBarItems = document.querySelector(".bar");
-let menuBarCross = document.querySelector(".cross");
-
-menuBarItems.style.display = "none";
-bar.addEventListener("click", function () {
-  menuBarItems.style.display = "block";
-});
-menuBarCross.addEventListener("click", function () {
-  menuBarItems.style.display = "none";
-});
-
-let footerPlusBtns = document.querySelectorAll(".footer-plus-btn");
-let options = document.querySelectorAll(".options");
-
-footerPlusBtns.forEach(function (button, index) {
-  button.addEventListener("click", function () {
-    if (this.classList.contains("cross")) {
-      this.classList.remove("cross");
-      options[index].style.display = "none";
-    } else {
-      this.classList.add("cross");
-      options[index].style.display = "block";
-    }
-  });
-});
-
 function loco() {
   gsap.registerPlugin(ScrollTrigger);
 
