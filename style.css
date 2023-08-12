@@ -691,6 +691,7 @@ body {
 
   #page > .nav {
     width: 90%;
+    margin-top: 5px;
     padding: 50px 15px 0px 15px;
   }
 
